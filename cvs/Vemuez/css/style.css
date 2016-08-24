@@ -3,6 +3,9 @@ body {
   margin:0;
   font-family: Arial, Verdana, sans-serif;
 }
+header, main, footer {
+  width:78vw;
+}
 
 header, footer {
   text-align:center;
@@ -30,6 +33,17 @@ header span {
   color: #B4AFDE;
 }
 
+aside {
+  position:fixed;
+  right:0;
+  top:0;
+  display:inline-block;
+  float:right;
+  width:20vw;
+  height:100vh;
+  background-color:#100D26;
+}
+
 main, footer {
   padding:10px;
 }
@@ -38,7 +52,8 @@ main section {
   background-color: #A29DC9;
   border-radius: 5px;
   padding:0.5px 17px 5px 17px;
-  margin-bottom:10px;
+  margin-bottom:30px;
+  position:relative;
 }
 
 footer form input {
