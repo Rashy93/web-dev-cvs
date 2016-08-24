@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
  	<head>
  		<title>Anastasios Barlas CV</title>
+ 		<link rel="stylesheet" type="text/css" href="CSS.css">
  	</head>
 	<body>
 		<h1>Anastasios Barlas</h1>
-		<h3>103 William House, Ringers Road, Bromley, BR1 1AG</h3>
-		<h3>up662987@myport.ac.uk</h3>
-		<h3>07542636905</h3>
+		<h2>103 William House, Ringers Road, Bromley, BR1 1AG</h2>
+		<h2>up662987@myport.ac.uk</h2>
+		<h2>07542636905</h2>
 
 		<p>Graduate from the University of Portsmouth with 2:1 degree in computer science, deep understanding of high level programming languages with focus on designing interactive pages with 3D graphics, seeking to work as a Junior Web Developer.</p>
 
@@ -70,17 +71,18 @@
 	<form  method="POST" action="http://lacedeamon.spartaglobal.com/contactform">   
 	
 	<label for="name">Name</label>   
-	<input type="text" name="name" >   
+	<input type="text" name="name" id="name" >   
 
 	<br />    
 
 	<label for="email">Email</label>   
-    <input type="email" name="email" >   <br />   
+    <input type="email" name="email" id="email">   <br />   
 
     <label for="addressee">addressee</label>  
-    <input type="text" name="addressee" >   
+    <input type="text" name="addressee" id="addressee" >   
   
-    <textarea name="message"></textarea>      
+    <label for="message">message</label>    
+    <textarea name="message" id="message" ></textarea>      
     <br>  
 
     <input type="submit" value="Submit"> 
