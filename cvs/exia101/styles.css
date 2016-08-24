@@ -23,3 +23,13 @@ h3 {
   margin: 0 auto;
   text-align: center;
 }
+
+aside {
+    display : block;
+    width : 100px;
+    height : 80px;
+    border-style : solid;
+    border-color : black;
+    background-color: black;
+    float: right;
+}
