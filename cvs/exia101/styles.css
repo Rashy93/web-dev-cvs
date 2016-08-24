@@ -5,7 +5,6 @@ html {
 
 h1 {
   text-align: center;
-  color: #830300;
   text-decoration: underline;
 }
 
@@ -25,9 +24,9 @@ h3 {
 }
 
 aside {
-    display : block;
-    width : 100px;
-    height : 80px;
+    display : inline-block;
+    width : 64px;
+    height : 64px;
     border-style : solid;
     border-color : black;
     background-color: black;
