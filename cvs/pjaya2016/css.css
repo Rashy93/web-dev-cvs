@@ -1,0 +1,48 @@
+body {
+    background-color:#9932CC;
+}
+
+h1{
+
+color:#FFFAF0;
+text-decoration: overline;
+ 
+ }
+
+ h2{
+font-style: italic;
+
+ }
+ h3{
+
+    border: 2px solid;
+    padding: 10px;
+    background: #dddddd;
+    border-bottom-left-radius: 2em;
+
+ }
+p{
+
+	font-weight: bold;
+	font-size: 130%;
+}
+
+form{
+
+	border: 2px solid;
+    padding: 10px;
+    background: #8600b3;
+    border-bottom-left-radius: 2em;
+}
+
+#sidebar {
+float: right;
+display: inline-block;
+border-style: solid;
+border-width: medium;
+background-color: red;
+height:160vh;
+
+
+}
+
