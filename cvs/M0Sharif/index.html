@@ -3,112 +3,140 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="cv.css">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
 	<title>
 		CV
 	</title>
 </head>
 <body>
 	<header>
-		<h1> Mohamed Sharif </h1>
-		<p>ADDRESS: CALL IF YOU WANT IT</p>
-		<p>Mobile: this is the number to call!		Email: this is the email address to send me messages on</p>
-		<h2>Profile: </h2>
-	</header>
-	<Main>
-		<section>
-			<p>
-				A recent Computer Science graduate, looking to work in a development team to learn new skills and apply current knowledge to productive tasks. I am a target-driven and ambitious individual with demonstrable passion for technology and computers
-			</p>
-		</section>
-		<section>
-			<h2>Education</h2>
-			<ul>
-				<li>
-					Sc Computer Science at Queen Mary University of London
-				</li>
-				<li>
-					Computing at Hackney Community College
-				</li>
-				<li>
-					9 GCSEs including Mathematics, Art and Design, and English at Bethnal Green Academy
-				</li>
-			</ul>
-		</section>
-		<section>
-			<h2>Technical Skills</h2>
-			<h3>Languages</h3>
-			<p>
-				I am a proficient Java programmer, new Python developer and an intermediate PHP, HTML and MySQL developer. I have created 2 games using Java, Blogs and social network sites suing PHP, Python and MySQL as well as HTML and CSS for design purposes.
-			</p>
-			<h3>Projects</h3>
-			<h3>Current</h3>
-			<p>
-				Teaching myself Android development, and have developed two applicaitons so far. Also on the Sparta Global web Development course.
-			</p>
-			<h3>2014</h3>
-			<p>
-				Developed a fully functional game using game development library LibGDX. Built a social network website using Python and Django framework. Built a 3D projection model using Java.
-			</p>
-			<h3>2013</h3>
-			<p>
-				Built a 2D object based adventure game using Slick2D game library. MySQL Blog and a simple film quizz based on procedural programming.
-			</p>
-		</section>
-		<section>
-			<h2>Experience</h2>
-			<h3>Technical Analyst</h3>
-			<p>
+		<div class ="info">
+			<div class="profile">
+				<h2>Mohamed Sharif </h2>
+				<p>
+					A recent Computer Science graduate, looking to work in a development team to learn new skills and apply current knowledge to productive tasks. I am a target-driven and ambitious individual with demonstrable passion for technology and computers.
+				</p>
+			</div>
+			<img src="profilePic.jpg">
+			<div class ="links">
 				<ul>
-					<li>
-						Worked intensively with the second line support team to solve a variety of teachnical issues for some of the biggest HPE clients.
-					</li>
-					<li>
-						Developed excellent customer facing communication and report building skills.
-					</li>
-					<li>
-						Organised multiple charity and volunteering events as well as social gatherings.
-					</li>
-					<li>
-						Took initiative in seeking training and skills that will challenge my problem solving skills and allow me to develop my knowledge and potential.
-					</li>
+					<!--<li>mo.omar.sharif@gmail.com</li>-->
+					<li><a href="mailto:mo.omar.sharif@gmail.com">mo.omar.sharif@gmail.com <i class="fa fa-envelope-o fa-fw"></i></li>
+
+					<li><a href="https://twitter.com/M0Sharif" class="btn btn-default btn-lg">Twitter<i class="fa fa-twitter fa-fw"></i></a></li>
+
+					<li><a href="tel:+447984905102">+447984905102 </a><i class="fa fa-mobile fa-fw"></i></li>
+
+					<li><a href="https://maps.google.com/?q=London, UK">Hackney, London </a><i class="fa fa-map-marker" aria-hidden="true"></i></li>
 				</ul>
-			</p>
-			<h3>Social Secratary</h3>
-			<p>
-				Designed and published posters for the social events. Took the lead in promoting society events and trips using social network sites.
-			</p>
-		</section>
-		<section>
-			<h2>Interests</h2>
-			<h3>Gaming</h3>
-			<p>
-				I am a regular gamer, I play for the QMUL League of Legends team. This love for gaming has led me to be excited about developing games. In my spare time, i create simple and easy to play games using game engines and libraries. This has helped me increase my problem solving skills as well as thinking about the end user.
-			</p>
-			<h3>Travel</h3>
-			<p>
-				I have recently travelled around Europe, Visiting places that include Portugal, Berlin, Paris and Amsterdam.
-			</p>
-		</section>
+			</div>
+		</div>
+	</header>
+	<hr>
+	<Main>
+		<div class="container">
+			<div class="columns">
+				<div class ="column1">
+					<div class="education">
+						<h2>Education</h2>
+						<ul>
+							<li>
+								Sc Computer Science at Queen Mary University of London
+							</li>
+							<li>
+								Computing at Hackney Community College
+							</li>
+							<li>
+								9 GCSEs including Mathematics, Art and Design, and English at Bethnal Green Academy
+							</li>
+						</ul>
+					</div>
+
+					<div class="experience">
+						<h2>Experience</h2>
+						<h3>Technical Analyst</h3>
+						<p>
+							<ul>
+								<li>
+									Worked intensively with the second line support team to solve a variety of teachnical issues for some of the biggest HPE clients.
+								</li>
+								<li>
+									Developed excellent customer facing communication and report building skills.
+								</li>
+								<li>
+									Organised multiple charity and volunteering events as well as social gatherings.
+								</li>
+								<li>
+									Took initiative in seeking training and skills that will challenge my problem solving skills and allow me to develop my knowledge and potential.
+								</li>
+							</ul>
+						</p>
+						<h3>Social Secratary</h3>
+						<p>
+							Designed and published posters for the social events. Took the lead in promoting society events and trips using social network sites.
+						</p>
+					</div>
+
+
+					<div class="contact">
+						<form method="POST" action="http://lacedeamon.spartaglobal.com/contactform">
+							<h2>Contact me</h2>
+							<label for="name">Name: </label>
+							<input type="text" name="name" id="name">
+
+							<label for="email">Email: </label>
+							<input type="email" name="email" id="email">
+
+							<input type="hidden" name="addressee" id="addressee" value="mo@gmail.com">
+
+							<label for="message">Messagae: </label>
+							<textarea rows="20" name="message" id="message"></textarea>
+
+							<input type="submit" value="Submit"/>
+    						</label>
+						</form>
+					</div>	
+
+				</div>
+				<div class ="column2">
+
+					<div class="technicalSkills">
+						<h2>Technical Skills</h2>
+						<h3>Languages</h3>
+						<p>
+							I am a proficient Java programmer, new Python developer and an intermediate PHP, HTML and MySQL developer. I have created 2 games using Java, Blogs and social network sites suing PHP, Python and MySQL as well as HTML and CSS for design purposes.
+						</p>
+						<h3>Projects</h3>
+						<h3>Current</h3>
+						<p>
+							Teaching myself Android development, and have developed two applicaitons so far. Also on the Sparta Global web Development course.
+						</p>
+						<h3>2014</h3>
+						<p>
+							Developed a fully functional game using game development library LibGDX. Built a social network website using Python and Django framework. Built a 3D projection model using Java.
+						</p>
+						<h3>2013</h3>
+						<p>
+							Built a 2D object based adventure game using Slick2D game library. MySQL Blog and a simple film quizz based on procedural programming.
+						</p>
+					</div>
+					
+					<div class="interest">
+						<h2>Interests</h2>
+						<h3>Gaming</h3>
+						<p>
+							I am a regular gamer, I play for the QMUL League of Legends team. This love for gaming has led me to be excited about developing games. In my spare time, i create simple and easy to play games using game engines and libraries. This has helped me increase my problem solving skills as well as thinking about the end user.
+						</p>
+						<h3>Travel</h3>
+						<p>
+							I have recently travelled around Europe, Visiting places that include Portugal, Berlin, Paris and Amsterdam.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</Main>
 	<footer>
-		<h2>References</h2>
-		<p>
-			Available on request ;)
-		</p>
 	</footer>
-		<form method="POST" action="http://lacedeamon.spartaglobal.com/contactform">
-		<label for="name">Name: </label>
-		<input type="text" name="name" id="name">
-
-		<label for="email">Email: </label>
-		<input type="email" name="email" id="email">
-
-		<input type="hidden" name="addressee" id="addressee" value="mo@gmail.com">
-
-		<label for="message">Messagae: </label>
-		<textarea ows="20" name="message" id="message"></textarea>
-
-		<input type="submit" value="Submit">
-	</form>
 </body>
 </html>

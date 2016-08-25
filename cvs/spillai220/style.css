@@ -1,0 +1,39 @@
+h1 {
+  text-align: left;
+  font-family: Verdana;
+  font-size: 25px;
+  margin-left:100px;
+  color: darkblue;
+}
+header {
+  text-align: left;
+  margin-left: 100px;
+  font-weight: lighter;
+  font-family: Verdana;
+  line-height:0.5;
+  color: darkblue;
+}
+aside{
+  margin: -100px auto;
+  margin-right: 200px;
+  background-color:blue;
+  border: 5px solid black;
+  padding: 50px 10px;
+  display: inline-block;
+  float:right;
+
+}
+section{
+  width:80%;
+  margin-left: 100px;
+  text-align: justify;
+}
+
+h3{
+  font-family: Verdana;
+  font-size: 25px;
+  color: darkblue;
+}
+body {
+  background-color: #efeff5;
+}
