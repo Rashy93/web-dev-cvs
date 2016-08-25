@@ -1,13 +1,49 @@
-body {
-    background-color: lightblue;
+body{
+	text-align: center;
+	background-color: lightblue;
+	color:black;
 }
 
-p {
-    border-top-style: dotted;
-    border-right-style: solid;
-    border-bottom-style: dotted;
-    border-left-style: solid;
-    border: 5px solid red;
-     border: 2px solid red;
-    border-radius: 5px;
+header {
+	font-style: oblique;
+	font-size:40px;
+}	
+
+.Me {
+	font-family: Georgia;
+	font-size:17px;
+}	
+
+.Education   {
+	font-family:Georgia;
+	font-size:17px;
+
 }
+
+ .RExperience{
+font-family:Georgia;
+	font-size:17px;
+
+ }
+
+ .OExperience{
+font-family:Georgia;
+	font-size:17px;
+
+ }
+
+ .OQualifications{
+font-family:Georgia;
+	font-size:17px;
+ }
+
+ aside{
+ 	background-color:white;
+ 	float:right;
+ 	position: fixed;
+ 	right:20px;
+ 	top:20px;
+ 	font-size: 20px;
+ }
+
+ 
